@@ -1,4 +1,4 @@
-function fibonacci(n){
+const fibonacci = function(n){
     if (n == 0){
         return 0;
     }
@@ -10,10 +10,5 @@ function fibonacci(n){
     }
 }
 
-console.log(fibonacci(0));
-console.log(fibonacci(1));
-console.log(fibonacci(15));
-console.log(fibonacci(5));
-console.log(fibonacci(16));
-console.log(fibonacci(2));
+module.exports = {fibonacci};
 
